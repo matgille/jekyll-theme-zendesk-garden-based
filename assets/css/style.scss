@@ -54,3 +54,7 @@ h1:hover::before {
     max-width: 50%;
     max-height: 50%
 }
+
+.search_result\:preview_text {
+  text-overflow: ellipsis;
+}
