@@ -14,7 +14,7 @@
         const heading = el.cloneNode()
         const link = document.createElement('a')
 
-        link.setAttribute('href', `/DrJekyllMrCatmus/#${id}`)
+        link.setAttribute('href', `{{ baseurl }}#${id}`)
         link.classList.add('heading_link')
         link.textContent = el.textContent
         heading.textContent = undefined

@@ -29,7 +29,6 @@
   @extend .break-words;
   @extend .overflow-hidden;
   text-overflow: ellipsis;
-  max-height: 120px;
 }
 
 .search_result\:highlight {
