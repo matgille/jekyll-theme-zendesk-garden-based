@@ -46,3 +46,9 @@ h1:hover::before {
   @extend .no-underline;
   @extend .hover\:no-underline;
 }
+
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+}
