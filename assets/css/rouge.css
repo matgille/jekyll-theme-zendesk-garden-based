@@ -224,3 +224,10 @@
 .highlight {
     background-color: #f8f8f8;
 }
+
+
+.search_result\:preview_text {
+  @extend .break-words;
+  @extend .overflow-hidden;
+  text-overflow: ellipsis;
+}
