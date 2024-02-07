@@ -51,4 +51,6 @@ h1:hover::before {
 .bottom {
     position: absolute;
     bottom: 0;
+    max-width: 50%;
+    max-height: 50%
 }

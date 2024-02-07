@@ -133,8 +133,8 @@ layout: bare-- -
     const resultTitle = (metadata, doc) => {
         const el = document.createElement('div')
         const link = document.createElement('a')
-        link.setAttribute('href', 'test_url')
-        /*  link.setAttribute('href', doc.relUrl)*/
+        /*        link.setAttribute('href', 'test_url')*/
+        link.setAttribute('href', doc.relUrl)
         link.innerHTML = highlightContent(metadata, 'title', doc.title)
         
         el.appendChild(link)
@@ -170,7 +170,8 @@ layout: bare-- -
     const buildResults = (results, docs) => {
         const resultsEl = document.getElementById('search_results')
         
-        results.forEach(({ matchData, ref
+        results.forEach(({
+            matchData, ref
         }) => {
             const result = buildResult(matchData.metadata, docs[ref])
             
