@@ -10,12 +10,12 @@
 <footer class="chrome:footer">
   {%- if site.version != false and version != "" -%}
   <div class="chrome:footer_item">
-    <span class="text-lg">{{ version }}</span>
+    <span class="text-lg">Dernier commit: {{ version }}</span>
   </div>
   {%- endif -%}
   <div class="chrome:footer_item">
     <span class="text-lg"
-      >Updated: {{ site.time | date: "%Y-%m-%d %H:%M" }}</span
+      >Mise à jour: {{ site.time | date: "%Y-%m-%d" }}</span
     >
   </div>
 </footer>
